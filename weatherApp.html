@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherAppStyle.css">
+</head>
+<body>
+    <!-- <pre>
+        * laptoplink "https://www.flipkart.com/asus-intel-core-i7-12th-gen-12700h-16-gb-512-gb-ssd-windows-11-home-x1605zac-mb742ws-laptop/p/itmf1d631f2db825?pid=COMHYYZNX5YFZVPJ&lid=LSTCOMHYYZNX5YFZVPJRD0JQT&marketplace=FLIPKART&q=laptops&store=6bo%2Fb5g&srno=s_1_7&otracker=search&otracker1=search&fm=Search&iid=84c94f7e-c36c-4d9d-ab02-984ab93c4c1d.COMHYYZNX5YFZVPJ.SEARCH&ppt=sp&ppn=sp&qH=c06ea84a1e3dc3c6"
+        * Read your current location , 
+        * Our app shoild display the current location's weather, 
+        
+        * To get weather info we will be using accuweather API.
+        * for making API call we can use fetch() or we can use 3rd party library called as axios.  
+        * API Key : RbeNONzecOM7YAbdZ1YYQC0xKEVVuVhI
+        * upon opening the app get the current location coordinates.
+        * using the coordinates make the api call to get basic details such as country , key, local location, timezone etc
+        * using the key try to fetch the weather of your current location by making another API call
+        * once the weather data is available then start building the UI.
+        * learn clouser prototype (higher level)
+        * learn frameworks angular/react/vue/node
+    </pre> -->
+
+
+<div class="card">
+    <div class="card-info">
+        <p id="country" class="card-content"></p>
+        <p id="currentLocation" class="card-content"></p>
+        <p id="date" class="card-content"></p>
+    </div>
+    <div class="card-weather">
+        <img id="morning" class="card-weather-icon" src="" alt="">
+        <p id="morning-desc" class="card-weather-desc"></p>
+        <p id="morningtemperature" class=""></p>
+    </div>
+    <div class="card-weather">
+        <img id="night" class="card-weather-icon" src="" alt="">
+        <p id="night-desc" class="card-weather-desc"></p>
+        <p id="nighttemperature" class=""></p>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="weatherAppJS.js"></script>
+</body>
+</html>
